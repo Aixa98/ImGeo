@@ -14,7 +14,7 @@ _Versionados 📌_
 _Python 3, PHP_
 _Aplicaciones de API REST_
 _Instalacion y Activacion de modulos XAMPP (MySQL,Apache)_
-_Aplicacion de librerias Flask, Json, werkzeug, Geotiff_
+_Aplicacion de librerias_
 
 ```
 pip install Flask
@@ -22,6 +22,10 @@ pip install Flask
 
 ```
 pip install geotiff
+```
+
+```
+pip install googlemaps
 ```
 
 ### Instalación 🔧
@@ -45,35 +49,21 @@ http://localhost/ImGeo/php-login/
 ## Ejecutando las pruebas ⚙️
 
 _Mas info aqui_
-_https://drive.google.com/file/d/1EVGu0D7t1eFYm4_bzk5TgrvpGz9bVG0Z/view?usp=sharing _
 
 ### Pruebas en AWS ⌨️
 
 _Usuario: AixaB98_
 
 Recurso de almacenamiento S3
-
-```
-Da un ejemplo
-```
-
 Recurso Amplify Hosting
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Herramientas_
 
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-- [Maven](https://maven.apache.org/) - Manejador de dependencias
-- [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+- [API google maps](https://developers.google.com/maps?hl=es-419) - Para visualizar limites Geograficos
+- [Xampp](https://www.apachefriends.org/es/index.html) - Distribucion para el Registro en PHP
+- [geotiff](https://pypi.org/project/geotiff/) - Usado para generar los archivos .tiff y json
 
 ## Autores ✒️
 
