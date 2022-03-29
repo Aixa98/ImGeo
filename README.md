@@ -38,7 +38,7 @@ _El sistema de login esta escrito en PHP, y se ejecuta desde la carpeta ("php-lo
 
 _Base de datos "php_login_database"_
 
-![image](https://github.com/Aixa98/php-login/docs/login1.gif)
+![image](https://github.com/Aixa98/ImGeo/php-login/docs/login1.gif)
 
 _Acceder desde la web_
 
