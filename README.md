@@ -45,7 +45,8 @@ _Acceder desde la web_
 ```
 http://localhost/ImGeo/php-login/
 ```
-
+### Back-end
+![image](https://github.com/Aixa98/ImGeo/blob/master/imgeo-master/docs/demo.gif)
 ## Ejecutando las pruebas ⚙️
 
 _Mas info aqui_
