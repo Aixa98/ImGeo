@@ -1,6 +1,6 @@
 # Challenge
 
-_Creacion de Web service "ImgGeo" que permite cargar un archivo imagen de formato .TIFF desde el servidor. Una vez cargada en su formato la web nos muestra los limites geograficos que este archivo representa y adjunta una visualizacion en Google Maps._
+_Creacion de Web service "ImgGeo" que permite cargar un archivo en formato .csv desde el servidor. Una vez cargada en su formato la web nos muestra los limites geograficos que este archivo representa y adjunta una visualizacion por Mapa._
 
 ## Comenzando 🚀
 
@@ -21,14 +21,16 @@ pip install Flask
 ```
 
 ```
-pip install geotiff
+pip install leaflet
 ```
 
 ```
-pip install googlemaps
+pip install pandas
 ```
 
 ### Instalación 🔧
+
+### Front-end
 
 _Se encuentra el codigo completo en https://github.com/Aixa98/Login-php_
 
@@ -36,9 +38,7 @@ _El sistema de login esta escrito en PHP, y se ejecuta desde la carpeta ("php-lo
 
 _Base de datos "php_login_database"_
 
-```
-
-```
+![image](https://github.com/Aixa98/php-login/docs/login1.gif)
 
 _Acceder desde la web_
 
@@ -49,6 +49,7 @@ http://localhost/ImGeo/php-login/
 ## Ejecutando las pruebas ⚙️
 
 _Mas info aqui_
+https://docs.google.com/document/d/1tSudMDDoxmpBhFmh00vsr1CaktEMJeaP2VPqU4-xha8/edit?usp=sharing
 
 ### Pruebas en AWS ⌨️
 
@@ -61,15 +62,12 @@ Recurso Amplify Hosting
 
 _Herramientas_
 
-- [API google maps](https://developers.google.com/maps?hl=es-419) - Para visualizar limites Geograficos
+- [Open steet Maps](https://www.openstreetmap.org/) - Para visualizar mapa
 - [Xampp](https://www.apachefriends.org/es/index.html) - Distribucion para el Registro en PHP
-- [geotiff](https://pypi.org/project/geotiff/) - Usado para generar los archivos .tiff y json
 
 ## Autores ✒️
 
-- **Aixa Benitez** - _Desafio_ - [villanuevand](https://github.com/Aixa98)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.
+- **Aixa Benitez** - _Desafio_ - [Aixa98](https://github.com/Aixa98)
 
 ## Licencia 📄
 

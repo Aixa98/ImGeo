@@ -1,0 +1,6 @@
+Xampp
+php
+Mysql
+flask
+werkzeug
+geotiff

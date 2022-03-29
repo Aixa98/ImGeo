@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Viewer</title>
+    <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CMuli:100,300,400,600,800">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/css/leaflet.css" />
+    <link rel="stylesheet" href="../static/css/viewer.css" />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="//rawgithub.com/domoritz/leaflet-locatecontrol/gh-pages/dist/L.Control.Locate.min.css"
+    />
+    <!--[if lt IE 9]>
+      <link
+        rel="stylesheet"
+        href="//rawgithub.com/domoritz/leaflet-locatecontrol/gh-pages/dist/L.Control.Locate.ie.min.css"
+      />
+    <![endif]-->
+
+    <script src="../static/javascript/leaflet.js"></script>
+    <script src="//rawgithub.com/domoritz/leaflet-locatecontrol/gh-pages/dist/L.Control.Locate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <div class="container viewer-container">
+      <div class="card viewer-info">
+        <div class="row">
+          <h3 class="title">Imgeo - GeoJSON Viewer</h3>
+          <br>
+          <li class="rd-nav-item"><a class="rd-nav-link" href="file:///C:/Users/Usuario/OneDrive/Escritorio/PTec.VENG/ImGeo/index.html">Home</a>
+        </div>
+        <div class="row">
+          <div class="container url-holder">
+            <form id="url-input">
+            <div id="map"></div>
+            <iframe
+              width="682"
+              height="450"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-0.7855224609375001%2C51.24558425850245%2C0.26641845703125006%2C51.73298216429908&amp;layer=mapnik"
+              style="border: 1px solid black"
+            ></iframe
+            ><br /><small
+              ><a href="https://www.openstreetmap.org/#map=10/51.4899/-0.2596"
+                >Ver mapa más grande</a
+              ></small
+            >
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="container url-holder">
+            <form id="url-input">
+              <div class="input-field url-input">
+                <label for="geojson-endpoint"></label>
+              </div>
+              <div class="input-field submit">
+                <div><a class="btn blue waves-effect waves-light submit-button" type="button" href="ImGeo/php/viewjson.php" data-wow-delay=".2s">view Geojson</a></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../static/javascript/viewer.js"></script>
+  </body>
+</html>

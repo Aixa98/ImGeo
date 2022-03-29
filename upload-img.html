@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
@@ -25,8 +26,6 @@
       </div>
     </div>
     <div class="page">
-      <!-- Page Header--><a class="banner banner-top" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"><img src="images/intense_02.jpg" alt=""/></a>
-      <header class="section page-header">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
           <nav class="rd-navbar rd-navbar-modern" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="10px" data-xl-stick-up-offset="10px" data-xxl-stick-up-offset="10px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
@@ -79,28 +78,32 @@
           <div class="row justify-content-center">
             <div class="col-lg-11 col-xl-9">
               <!-- form -->
-                <form action="/upload" method="POST" enctype="multipart/form-data">
-                    <input type="file" name="archivo"><br>
-                    <input href="upload.py" class="button button-primary" type="submit">
-                </form>
+              <h3 class="title"> imgeo - Upload a File </h3>
+                <br>
+                <div class="container" >
+                    <p>
+                      imgeo allows users to upload static files to their API in order to turn them into endpoints.
+                    </p>
+
+                    <br>
+                    <h5>Accepted File Formats <i class="material-icons upload">present_to_all</i></h5>
+                    <ul>
+                        <li>CSV </li>
+                    </ul>
+                    <br>
+
+                    <form action="imgeo-master/templates/viewer.html" method="POST" enctype=multipart/form-data>
+                        <div class="col-md-6">
+                        <input type="file" name="file">
+                        <input class="button button-block button-primary" type="submit" value="Upload">
+                        </div>
+                    </form>
+                </div>
             </div>
            </div>
         </div>
       </section>
-      <!--Map-->
-      <div class="footer-classic-main">
-        <div class="container">
-          <div class="row row-50 justify-content-lg-between">
-          <title>Add Map</title>
-        <script
-          src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
-          defer
-        ></script>
-         <link rel="stylesheet" type="text/css" href="./style.css" />
-        <script src="./index.js"></script>
-        </div>
-        </div>
-        </div>
+   
       <!-- Page Footer-->
       <div class="footer-classic-main">
         <div class="container">
