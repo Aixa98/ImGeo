@@ -56,8 +56,9 @@ https://docs.google.com/document/d/1tSudMDDoxmpBhFmh00vsr1CaktEMJeaP2VPqU4-xha8/
 
 _Usuario: AixaB98_
 
-Recurso de almacenamiento S3
-Recurso Amplify Hosting
+Recurso de verificacion 
+Amplify Hosting
+https://master.d2hcw5epaittqz.amplifyapp.com/
 
 ## Construido con 🛠️
 
